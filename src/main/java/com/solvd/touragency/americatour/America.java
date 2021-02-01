@@ -12,7 +12,6 @@ public abstract class America {
 		this.place = place;
 		this.time = time;
 	}
-
 	public America(String place, int time, int price) {
 		this.price = price;
 		this.place = place;

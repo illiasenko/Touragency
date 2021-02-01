@@ -56,11 +56,8 @@ public class Catalog {
 
 		jsonAction.convertJavaToJsonFile(worldList, "worldlist.json");
 
-
 		String jsonStr1 = "{\"time\":12,\"place\":\"Asia\",\"price\":1000}";
-
 		World world2 = jsonAction.convertJsonStrToAsiaPOJO(jsonStr1);
-
 		LOGGER.info("Name time from POJO: " + world2.getTime());
 		LOGGER.info("Name place from POJO: " + world2.getPlace());
 		LOGGER.info("Name price from POJO: " + world2.getPrice());

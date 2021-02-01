@@ -14,7 +14,6 @@ public class Vietnam extends Asia {
 		this.time = time;
 		this.price = price;
 	}
-
 	public void setPlace(String place) {
 		this.place = place;
 	}

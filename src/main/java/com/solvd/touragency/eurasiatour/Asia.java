@@ -36,11 +36,9 @@ public class Asia extends World implements Bonus {
 	public int getTime() {
 		return time;
 	}
-
 	public void setPrice(int price) {
 		this.price = price;
 	}
-
 	public int getPrice() {
 		return price;
 	}

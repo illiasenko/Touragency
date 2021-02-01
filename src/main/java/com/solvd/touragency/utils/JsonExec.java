@@ -40,12 +40,11 @@ public class JsonExec {
 			e.printStackTrace();
 		}
 	}
-
 	public World convertJsonStrToAsiaPOJO(String jsonStr) {
 		World world = null;
 		try {
 			ObjectMapper mapper = new ObjectMapper();
-			World = mapper.readValue(jsonStr, World.class);
+			world = mapper.readValue(jsonStr, World.class);
 			LOGGER.info("convert to POJO, finished!");
 
 		} catch (JsonProcessingException e) {

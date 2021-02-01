@@ -25,7 +25,6 @@ public class World {
 		flight = new ArrayList<America>();
 		bus = new LinkedList<Europe>();
 		combined = new HashSet<Asia>();
-
 	}
 
 	public World(Europe europe, America america) {

@@ -16,7 +16,6 @@ public class Ukraine extends Europe{
 		this.price = price;
 
 	}
-
 	public void setPlace(String place) {
 		this.place = place;
 	}

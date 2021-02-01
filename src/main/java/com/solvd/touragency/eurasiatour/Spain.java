@@ -30,7 +30,6 @@ public class Spain extends Europe {
 		return time;
 
 	}
-
 	@Override
 	public void setPrice(int price) {
 		this.price = price;

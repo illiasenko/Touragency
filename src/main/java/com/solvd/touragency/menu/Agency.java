@@ -20,7 +20,6 @@ public class Agency {
 	public void setDays(int days) {
 		this.days = days;
 	}
-
 	public int getPrice() {
 		return price;
 	}
