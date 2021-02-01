@@ -6,9 +6,9 @@ import java.io.PrintWriter;
 
 public class WritingToFile {
 
-	public void writeToFile(String path, String place) {
+	public void writeToFile(String pathFirst, String place) {
 
-		File file = new File(path);
+		File file = new File(pathFirst);
 		try {
 			PrintWriter pw = new PrintWriter(file);
 			pw.println(place);

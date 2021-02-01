@@ -14,26 +14,24 @@ public class Canada extends America {
 		this.price = price;
 	}
 
-	public void setPlace(String place) {
-		this.place = place;
-	}
-
+	@Override
 	public String getPlace() {
 		return place;
 	}
 
-	public void setTime(int time) {
-		this.time = time;
-	}
-
-	public int getTime() {
-		return time;
-
+	@Override
+	public void setPlace(String place) {
+		this.place = place;
 	}
 
 	@Override
-	public void setPrice(int price) {
-		this.price = price;
+	public int getTime() {
+		return time;
+	}
+
+	@Override
+	public void setTime(int time) {
+		this.time = time;
 	}
 
 	@Override
@@ -41,6 +39,10 @@ public class Canada extends America {
 		return price;
 	}
 
+	@Override
+	public void setPrice(int price) {
+		this.price = price;
+	}
 
 	@Override
 	public String toString() {

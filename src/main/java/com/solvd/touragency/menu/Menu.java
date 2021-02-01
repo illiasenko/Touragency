@@ -6,32 +6,23 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.io.File;
-import com.solvd.touragency.worldtour.World;
-import com.solvd.touragency.eurasiatour.Europe;
-import com.solvd.touragency.eurasiatour.Asia;
-import com.solvd.touragency.eurasiatour.Italy;
-import com.solvd.touragency.menu.Agency;
-import com.solvd.touragency.utils.ReadingFromFile;
-import com.solvd.touragency.utils.WritingToFile;
-import com.solvd.touragency.utils.WritingToProp;
-import com.solvd.touragency.americatour.America;
-import com.solvd.touragency.americatour.Canada;
-import com.solvd.touragency.americatour.Usa;
+
 
 public class Menu {
 	static String separator = File.separator;
-	static String pathFirst =  "C:" + separator + "Users" + separator + "ilyxa" + separator + "IdeaProjects"
+	static String pathFirst = "C:" + separator + "Users" + separator + "ilyxa" + separator + "IdeaProjects"
 			+ separator + "lesson_7" + separator + "src" + separator + "Visa.txt";
 	static String pathSecond = "C:" + separator + "Users" + separator + "ilyxa" + separator + "IdeaProjects"
 			+ separator + "lesson_7" + separator + "src" + separator + "List.properties";
-	public void show(){
+
+	public void show() {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 		try {
 			List<Agency> tours = new ArrayList<>();
 			boolean flag = true;
 			while (flag) {
-				System.out.println("======Welcome to the travel agtncy======\n\tPlease tell me how can I help you:");
+				System.out.println("======Welcome to the travel agency======\n\tPlease tell me how can I help you:");
 				System.out.println(
 						"Press 1 - for see all the tours.\nPress 2 - for pick the tour.\nPress 3 - We don't have such tour.");
 				System.out.print("Please make you choice: ");

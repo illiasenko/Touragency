@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class WritingToProp{
+public class WritingToProp {
 
 	public String getValueFromProperties(String path, String key) {
 

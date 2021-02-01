@@ -2,7 +2,7 @@ package com.solvd.touragency.eurasiatour;
 
 import com.solvd.touragency.worldtour.World;
 
-public abstract class Europe extends World {
+public class Europe extends World {
 
 	private String place;
 	private int time;

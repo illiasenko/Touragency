@@ -1,16 +1,15 @@
 package com.solvd.touragency.eurasiatour;
 
 public class Ukraine extends Europe{
+
 	private String place;
 	private int time;
 	private int price;
 
 	public Ukraine(){
+
 	}
-	public Ukraine(String place, int time){
-		this.place = place;
-		this.time = time;
-	}
+
 	public Ukraine(String place, int time, int price) {
 		this.place = place;
 		this.time = time;
@@ -45,9 +44,10 @@ public class Ukraine extends Europe{
 		return price;
 	}
 
+
 	@Override
 	public String toString() {
-		return "Ukraine{" +
+		return "Italy{" +
 				"place='" + place + '\'' +
 				", time=" + time +
 				", price=" + price +

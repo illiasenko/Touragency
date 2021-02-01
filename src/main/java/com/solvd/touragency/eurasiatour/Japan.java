@@ -4,9 +4,8 @@ public class Japan extends Asia {
 	public Japan(){
 		super();
 	}
-	@Override
-	public void greetings(){
-		super.greetings();
+
+	public void eatsushi(){
 		System.out.println("Eat some sushi");
 	}
 }

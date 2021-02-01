@@ -1,14 +1,14 @@
 package com.solvd.touragency.americatour;
 
-public class Usa extends America {
+public class Columbia extends America {
 	private String place;
 	private int time;
 	private int price;
 
-	public Usa() {
+	public Columbia() {
 	}
 
-	public Usa(String place, int time, int price) {
+	public Columbia(String place, int time, int price) {
 		this.place = place;
 		this.time = time;
 		this.price = price;
